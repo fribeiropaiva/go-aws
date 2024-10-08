@@ -37,6 +37,7 @@ func main() {
 	// Now it can only be user by a struct of type Person
 	myPerson.changeName("John")
 
-	fmt.Println(myPerson)                                   // {John 34}
+	fmt.Println(myPerson)
+	fmt.Println("------------")                             // {John 34}
 	fmt.Printf("This is my changed person %+v\n", myPerson) // This is my person {Name:John Age:34}
 }
